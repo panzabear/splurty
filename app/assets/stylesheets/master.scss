@@ -54,6 +54,8 @@ hr {
 
 h1 {
   font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 48px;
 }
 
 h2 {
@@ -81,8 +83,18 @@ h2 {
 
 }
 
+.modal {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
 
+h2 span {
+  color: #dddddd;
+  font-family: 'Merriweather', serif;
+}
 
+::selection {
+  background-color: #f84342;
+}
 
 
 
