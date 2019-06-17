@@ -6,6 +6,7 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -14,7 +15,7 @@
         <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
-          You 
+          You
           <br />
           Are
           <br />
@@ -62,7 +63,7 @@
         <div class="col-10 offset-1 alert alert-danger">
           <%= flash[:error].html_safe %>
         </div>
-      <% end %> 
+      <% end %>
       <%= yield %>
     </div>
     <div class="footer">
@@ -80,16 +81,3 @@
     </div>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
